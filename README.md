@@ -1,16 +1,6 @@
 # 🎓 Students Table App
 
-Project Details
-
-The Students Table App is a frontend React application that manages student records with full CRUD functionality. The application allows users to add, view, edit, and delete student information directly on the client side using in-memory state without requiring a backend.
-
-The interface displays student data including name, email, and age in a structured table. Users can add new students through a form with validation to ensure that all fields are required and the email format is correct. When editing a student, the form is automatically pre-filled with existing data to make updates easier.
-
-The application also includes features such as search, filtering by age range, sorting, and pagination to efficiently manage larger datasets. A confirmation dialog is shown before deleting a record to prevent accidental removal.
-
-To improve the user experience, a simulated loading state is displayed when data is being processed. Additionally, users can export student data as a CSV file that can be opened in Excel, either for the filtered results or the full dataset.
-
-The project demonstrates practical frontend development skills including state management, form validation, dynamic table rendering, and client-side data processing. The application is deployed online using Vercel or Netlify.
+A full-featured React student management app with CRUD operations, search, filters, sorting, pagination, and CSV export.
 
 ## ✨ Features
 
