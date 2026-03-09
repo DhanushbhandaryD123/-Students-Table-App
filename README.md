@@ -1,7 +1,16 @@
 # 🎓 Students Table App
 
-A full-featured React student management app with CRUD operations, search, filters, sorting, pagination, and CSV export.
+Project Details
 
+Students Table App is a React-based frontend application designed to manage student records through a dynamic table interface. The application allows users to perform full CRUD operations including adding, editing, viewing, and deleting student data directly from the browser.
+
+Student information such as name, email, and age is displayed in a structured table with action buttons for editing and deleting records. The add and edit forms include validation to ensure all fields are required and the email follows a valid format.
+
+The application also includes advanced table functionality such as search, sorting, filtering by age range, and pagination to help manage larger datasets efficiently. A confirmation dialog is displayed before deleting a record to prevent accidental data loss.
+
+To improve the user experience, a simulated loading state is implemented when data operations occur. Users can also export student data to a CSV file that can be opened in Excel, either for the filtered dataset or the entire table.
+
+This project demonstrates practical frontend development concepts such as state management, dynamic table rendering, form validation, and client-side data handling using React.
 ## ✨ Features
 
 - ✅ View all students in a sortable, paginated table
@@ -15,101 +24,7 @@ A full-featured React student management app with CRUD operations, search, filte
 - ✅ Fully in-memory — no backend required
 
 ---
-
-## 🚀 Getting Started (Local Dev)
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Run dev server
-npm run dev
-
-# 3. Open in browser
-http://localhost:5173
-```
-
----
-
-## 🌐 Deploy to Vercel (Recommended)
-
-### Option A — Via Vercel Dashboard (Easiest)
-1. Push this repo to GitHub (see below)
-2. Go to [vercel.com](https://vercel.com) → **New Project**
-3. Import your GitHub repo
-4. Framework: **Vite** (auto-detected)
-5. Click **Deploy** — done! 🎉
-
-### Option B — Via Vercel CLI
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
-```
-
----
-
-## 🌐 Deploy to Netlify
-
-### Option A — Via Netlify Dashboard
-1. Push this repo to GitHub
-2. Go to [netlify.com](https://netlify.com) → **Add new site** → **Import from Git**
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-5. Click **Deploy** 🎉
-
-### Option B — Via Netlify CLI
-```bash
-npm install -g netlify-cli
-npm run build
-netlify deploy --prod --dir=dist
-```
-
----
-
-## 📤 Upload to GitHub
-
-```bash
-# 1. Initialize git (inside project folder)
-git init
-
-# 2. Add all files
-git add .
-
-# 3. First commit
-git commit -m "Initial commit: Students Table App"
-
-# 4. Create a new repo on github.com, then:
-git remote add origin https://github.com/YOUR_USERNAME/students-app.git
-git branch -M main
-git push -u origin main
-```
-
----
-
-## 🏗️ Build for Production
-
-```bash
-npm run build
-# Output will be in /dist folder
-```
-
----
-
-## 🗂️ Project Structure
-
-```
-students-app/
-├── public/
-├── src/
-│   ├── App.jsx        # Main app with all components
-│   └── main.jsx       # React entry point
-├── index.html
-├── package.json
-├── vite.config.js
-├── .gitignore
-└── README.md
-```
+vercel URL : https://students-table-app-one.vercel.app
 
 ---
 
